@@ -1,0 +1,25 @@
+﻿# -*- coding: utf-8 -*-
+# Run inside FreeCAD via Macro > Macros.
+import sys
+from pathlib import Path
+import FreeCAD as App
+import FreeCADGui as Gui
+folder = Path(__file__).resolve().parent
+if str(folder) not in sys.path:
+    sys.path.insert(0, str(folder))
+import BPillarSurface
+path = folder / 'B_pillar_stage3.FCStd'
+doc = next((d for d in App.listDocuments().values() if d.FileName and Path(d.FileName).resolve() == path.resolve()), None)
+if doc is None:
+    doc = App.openDocument(str(path))
+for name in ['LowerCrownLoft', 'UpperMasterLoft']:
+    obj = doc.getObject(name)
+    if not isinstance(obj.Proxy, BPillarSurface.SectionSurface):
+        obj.Proxy = BPillarSurface.SectionSurface.__new__(BPillarSurface.SectionSurface)
+        obj.touch()
+doc.recompute()
+App.setActiveDocument(doc.Name)
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+Gui.updateGui()
+App.Console.PrintMessage('阶段3已打开：在 SectionParameters 参数表中修改截面参数。\n')
