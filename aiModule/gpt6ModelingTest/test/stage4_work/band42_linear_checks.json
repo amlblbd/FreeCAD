@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "inner_linear",
+    "valid": true,
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+  },
+  {
+    "mode": "both_linear",
+    "valid": true,
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+  },
+  {
+    "mode": "outer_linear",
+    "valid": true,
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+  }
+]

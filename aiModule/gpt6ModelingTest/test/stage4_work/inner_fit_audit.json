@@ -1,0 +1,166 @@
+[
+  {
+    "height": 0.0,
+    "max_fit_error": 1.0057881071369783
+  },
+  {
+    "height": 2,
+    "max_fit_error": 1.0057881071369783
+  },
+  {
+    "height": 8,
+    "max_fit_error": 0.8319333937712576
+  },
+  {
+    "height": 15,
+    "max_fit_error": 1.0303080829252151
+  },
+  {
+    "height": 25,
+    "max_fit_error": 1.030441540526486
+  },
+  {
+    "height": 32,
+    "max_fit_error": 1.196002758053207
+  },
+  {
+    "height": 40,
+    "max_fit_error": 1.317856461559557
+  },
+  {
+    "height": 47,
+    "max_fit_error": 0.9258690975460797
+  },
+  {
+    "height": 55,
+    "max_fit_error": 0.8287114398416974
+  },
+  {
+    "height": 60,
+    "max_fit_error": 0.6135354995825923
+  },
+  {
+    "height": 65,
+    "max_fit_error": 0.379032097314699
+  },
+  {
+    "height": 70,
+    "max_fit_error": 0.1901156048482886
+  },
+  {
+    "height": 75,
+    "max_fit_error": 0.11382197412509203
+  },
+  {
+    "height": 85,
+    "max_fit_error": 0.03872804415999621
+  },
+  {
+    "height": 95,
+    "max_fit_error": 0.032868067383407085
+  },
+  {
+    "height": 100,
+    "max_fit_error": 0.09883830698135791
+  },
+  {
+    "height": 115,
+    "max_fit_error": 0.0195861940029743
+  },
+  {
+    "height": 130,
+    "max_fit_error": 0.03324633819739729
+  },
+  {
+    "height": 145,
+    "max_fit_error": 0.020115329392728785
+  },
+  {
+    "height": 165,
+    "max_fit_error": 0.04003747831204671
+  },
+  {
+    "height": 190,
+    "max_fit_error": 0.19141010282547763
+  },
+  {
+    "height": 210,
+    "max_fit_error": 0.03818075463825828
+  },
+  {
+    "height": 235,
+    "max_fit_error": 0.031257967333530166
+  },
+  {
+    "height": 260,
+    "max_fit_error": 0.03522515746372897
+  },
+  {
+    "height": 310,
+    "max_fit_error": 0.032643828052040975
+  },
+  {
+    "height": 335,
+    "max_fit_error": 0.031122902006266346
+  },
+  {
+    "height": 360,
+    "max_fit_error": 0.011053408956327889
+  },
+  {
+    "height": 385,
+    "max_fit_error": 0.026162062949981205
+  },
+  {
+    "height": 410,
+    "max_fit_error": 0.03527856827658264
+  },
+  {
+    "height": 435,
+    "max_fit_error": 0.03014031821740637
+  },
+  {
+    "height": 460,
+    "max_fit_error": 0.039182171595015185
+  },
+  {
+    "height": 485,
+    "max_fit_error": 0.0262303258233109
+  },
+  {
+    "height": 510,
+    "max_fit_error": 0.033033103801357225
+  },
+  {
+    "height": 525,
+    "max_fit_error": 0.02427739297028606
+  },
+  {
+    "height": 530,
+    "max_fit_error": 0.037362666216707044
+  },
+  {
+    "height": 540,
+    "max_fit_error": 0.1823835118943792
+  },
+  {
+    "height": 545,
+    "max_fit_error": 0.04117712852020516
+  },
+  {
+    "height": 560,
+    "max_fit_error": 0.03774941394006024
+  },
+  {
+    "height": 580,
+    "max_fit_error": 0.02566007459497351
+  },
+  {
+    "height": 595,
+    "max_fit_error": 0.03163324957858024
+  },
+  {
+    "height": "Top",
+    "max_fit_error": 0.04142802914424296
+  }
+]

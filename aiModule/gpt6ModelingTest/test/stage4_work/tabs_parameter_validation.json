@@ -1,0 +1,110 @@
+[
+  {
+    "face": 134,
+    "thickness": 2.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 410.98426609926776,
+    "bop": "passed"
+  },
+  {
+    "face": 134,
+    "thickness": 2.5,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 513.7303326240849,
+    "bop": "passed"
+  },
+  {
+    "face": 134,
+    "thickness": 3.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 616.4763991489018,
+    "bop": "passed"
+  },
+  {
+    "face": 138,
+    "thickness": 2.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 496.4744868128019,
+    "bop": "passed"
+  },
+  {
+    "face": 138,
+    "thickness": 2.5,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 620.5931085160022,
+    "bop": "passed"
+  },
+  {
+    "face": 138,
+    "thickness": 3.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 744.7117302192029,
+    "bop": "passed"
+  },
+  {
+    "face": 159,
+    "thickness": 2.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 712.7824263996503,
+    "bop": "passed"
+  },
+  {
+    "face": 159,
+    "thickness": 2.5,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 890.978032999584,
+    "bop": "passed"
+  },
+  {
+    "face": 159,
+    "thickness": 3.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 1069.17363959949,
+    "bop": "passed"
+  },
+  {
+    "face": 249,
+    "thickness": 2.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 669.465969926667,
+    "bop": "passed"
+  },
+  {
+    "face": 249,
+    "thickness": 2.5,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 836.832462408321,
+    "bop": "passed"
+  },
+  {
+    "face": 249,
+    "thickness": 3.0,
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "volume": 1004.1989548900003,
+    "bop": "passed"
+  }
+]

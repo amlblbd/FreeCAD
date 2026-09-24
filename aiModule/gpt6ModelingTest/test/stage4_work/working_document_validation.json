@@ -1,0 +1,98 @@
+[
+  {
+    "name": "EarWall134",
+    "thickness": 2.0,
+    "volume": 410.98426609926776,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall138",
+    "thickness": 2.0,
+    "volume": 496.4744868128019,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall159",
+    "thickness": 2.0,
+    "volume": 712.7824263996504,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall249",
+    "thickness": 2.0,
+    "volume": 669.4659699266668,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall134",
+    "thickness": 2.5,
+    "volume": 513.7303326240849,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall138",
+    "thickness": 2.5,
+    "volume": 620.5931085160022,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall159",
+    "thickness": 2.5,
+    "volume": 890.9780329995839,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall249",
+    "thickness": 2.5,
+    "volume": 836.832462408321,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall134",
+    "thickness": 3.0,
+    "volume": 616.4763991489018,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall138",
+    "thickness": 3.0,
+    "volume": 744.7117302192029,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall159",
+    "thickness": 3.0,
+    "volume": 1069.1736395994897,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall249",
+    "thickness": 3.0,
+    "volume": 1004.1989548899999,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall134",
+    "thickness": 2.5,
+    "volume": 513.7303326240849,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall138",
+    "thickness": 2.5,
+    "volume": 620.5931085160022,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall159",
+    "thickness": 2.5,
+    "volume": 890.9780329995839,
+    "bop": "passed"
+  },
+  {
+    "name": "EarWall249",
+    "thickness": 2.5,
+    "volume": 836.832462408321,
+    "bop": "passed"
+  }
+]

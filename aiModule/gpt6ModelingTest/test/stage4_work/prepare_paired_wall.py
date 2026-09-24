@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('D:/freecad/FreeCAD/aiModule/gpt6ModelingTest/test/stage4_work');s=(p/'wall_test.py').read_text(encoding='utf-8-sig').replace('solid_test.brep','paired_solid.brep').replace('inner_test.brep','paired_inner.brep').replace('wall_test.json','paired_wall_test.json').replace('wall_error.txt','paired_wall_error.txt');(p/'paired_wall_test.py').write_text(s,encoding='utf-8')

@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "faces",
+    "volume": 495356.8059110826,
+    "orientation": "Forward",
+    "shell_orientation": "Forward",
+    "valid": true,
+    "far_inside": false,
+    "fuse": {
+      "volume": 513.7414273682122,
+      "valid": true,
+      "solids": 1
+    }
+  },
+  {
+    "mode": "shell_reverse_faces",
+    "volume": 495356.8059110826,
+    "orientation": "Reversed",
+    "shell_orientation": "Reversed",
+    "valid": true,
+    "far_inside": false,
+    "fuse": {
+      "volume": 513.7414273682122,
+      "valid": true,
+      "solids": 1
+    }
+  }
+]

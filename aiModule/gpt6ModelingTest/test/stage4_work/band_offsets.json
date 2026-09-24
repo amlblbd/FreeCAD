@@ -1,0 +1,74 @@
+[
+  {
+    "name": "LowerCrownLoft",
+    "band": 0,
+    "z": [
+      0.24282561207683726,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 1417.5723514134502,
+    "error": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "LowerCrownLoft",
+    "band": 5,
+    "z": [
+      40.0,
+      53.000000000004825
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 11287.033146095946,
+    "error": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "LowerCrownLoft",
+    "band": 9,
+    "z": [
+      54.98999999998161,
+      55.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 10.73162087212389,
+    "error": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "UpperMasterLoft",
+    "band": 0,
+    "z": [
+      55.0,
+      60.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 7371.349833238462,
+    "error": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "UpperMasterLoft",
+    "band": 16,
+    "z": [
+      310.0,
+      335.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 17429.250814044906,
+    "error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "UpperMasterLoft",
+    "band": 31,
+    "z": [
+      595.0,
+      609.9012767256339
+    ],
+    "valid": true,
+    "solids": 1,
+    "volume": 5596.121323583138,
+    "error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  }
+]

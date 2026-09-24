@@ -1,0 +1,67 @@
+{
+  "original": {
+    "volume": 495356.8059110826,
+    "orientation": "Reversed",
+    "shell_orientation": "Reversed",
+    "inside": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "points": [
+      [
+        65.72253695515063,
+        20.4547657998667,
+        300.0053333084204
+      ],
+      [
+        65.78170612899099,
+        22.453861903647663,
+        299.9946666915796
+      ],
+      [
+        0.0,
+        0.0,
+        300.0
+      ],
+      [
+        10000.0,
+        10000.0,
+        10000.0
+      ]
+    ]
+  },
+  "remake": {
+    "volume": 495356.8059110826,
+    "orientation": "Forward",
+    "inside": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "valid": true,
+    "fuse": {
+      "volume": 513.7493509835292,
+      "valid": true,
+      "solids": 1
+    }
+  },
+  "fix": {
+    "volume": 495356.8059110826,
+    "orientation": "Reversed",
+    "inside": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "valid": true,
+    "fuse": {
+      "volume": 513.7493509835292,
+      "valid": true,
+      "solids": 1
+    }
+  }
+}

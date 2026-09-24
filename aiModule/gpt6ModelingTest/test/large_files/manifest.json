@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "B_pillar_stage4_working.FCStd",
+      "size": 53422255,
+      "sha256": "d339aa87c0c387add9a275c164a6a8863a97663d7cd3d2774a92476ec875c65c",
+      "parts": [
+        {
+          "path": "B_pillar_stage4_working.FCStd/part-001",
+          "size": 33554432,
+          "sha256": "7a445d2dcd4df166380eefc74ad2da66ebd33f730df569ef65696b282e6441ac"
+        },
+        {
+          "path": "B_pillar_stage4_working.FCStd/part-002",
+          "size": 19867823,
+          "sha256": "0477c1f0f9ad0a6e6abd04f95d50752218a730bb4853c151196f65646551654c"
+        }
+      ]
+    },
+    {
+      "path": "B_pillar_stage4_working.20260923-180015.FCBak",
+      "size": 53077121,
+      "sha256": "7942f1569865b91d58222bcb8cde7a186959a0d90eb1a55c20d00fb27fa7115e",
+      "parts": [
+        {
+          "path": "B_pillar_stage4_working.20260923-180015.FCBak/part-001",
+          "size": 33554432,
+          "sha256": "bca7a926208f8363913d28c2520a17274ca1783159582f287b15ba84d43d304e"
+        },
+        {
+          "path": "B_pillar_stage4_working.20260923-180015.FCBak/part-002",
+          "size": 19522689,
+          "sha256": "fd34cbd3baab36da9168e367364c2767c90d4b926b9ab69603f34b7702180f3f"
+        }
+      ]
+    },
+    {
+      "path": "stage4_work/measure.log",
+      "size": 120318278,
+      "sha256": "11782196b0b9322ca35179c00432321bccfa5b221850bf74b6bac39798d496cf",
+      "parts": [
+        {
+          "path": "measure.log/part-001",
+          "size": 33554432,
+          "sha256": "cba961229adfa9ef0023b36f948b72eb1e75a3ef3b747f3e1fa8454da4d681ce"
+        },
+        {
+          "path": "measure.log/part-002",
+          "size": 33554432,
+          "sha256": "a4f45767e5a6323f47fd52283e8e2ba5d1e25d0944666c55a894c56e56413289"
+        },
+        {
+          "path": "measure.log/part-003",
+          "size": 33554432,
+          "sha256": "6c16fb1ee31db0c0ccf2bc1e05074174deefb8769604646dedd0ef44adb8729d"
+        },
+        {
+          "path": "measure.log/part-004",
+          "size": 19654982,
+          "sha256": "53541991b28123acaf6170af7af70d6ab2013339c48f3ac8674151639d8a442c"
+        }
+      ]
+    }
+  ]
+}

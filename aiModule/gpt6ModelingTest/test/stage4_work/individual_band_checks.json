@@ -1,0 +1,137 @@
+[
+  {
+    "height": [
+      36.0,
+      40.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 3.69419264793396
+  },
+  {
+    "height": [
+      40.0,
+      42.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 3.471721649169922
+  },
+  {
+    "height": [
+      42.0,
+      44.0
+    ],
+    "valid": true,
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n",
+    "seconds": 5.019952058792114
+  },
+  {
+    "height": [
+      44.0,
+      44.80000000000011
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 2.4419403076171875
+  },
+  {
+    "height": [
+      44.80000000000011,
+      44.899999999999906
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 3.808804512023926
+  },
+  {
+    "height": [
+      44.899999999999906,
+      46.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 4.961883306503296
+  },
+  {
+    "height": [
+      46.0,
+      47.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 7.881911277770996
+  },
+  {
+    "height": [
+      47.0,
+      47.30000000000012
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 2.623626470565796
+  },
+  {
+    "height": [
+      47.30000000000012,
+      47.5
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 7.173500061035156
+  },
+  {
+    "height": [
+      47.5,
+      49.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 5.681627511978149
+  },
+  {
+    "height": [
+      49.0,
+      51.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 5.826302766799927
+  },
+  {
+    "height": [
+      51.0,
+      53.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 5.490567922592163
+  },
+  {
+    "height": [
+      53.0,
+      55.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 9.434983730316162
+  },
+  {
+    "height": [
+      55.0,
+      57.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 14.74970555305481
+  },
+  {
+    "height": [
+      57.0,
+      60.0
+    ],
+    "valid": true,
+    "bop": "passed",
+    "seconds": 5.57003116607666
+  }
+]

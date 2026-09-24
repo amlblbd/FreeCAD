@@ -1,0 +1,23 @@
+[
+  {
+    "file": "B_pillar_stage1.FCStd",
+    "changed_entries": [
+      "Document.xml"
+    ],
+    "all_geometry_and_view_data_identical": true
+  },
+  {
+    "file": "B_pillar_stage2.FCStd",
+    "changed_entries": [
+      "Document.xml"
+    ],
+    "all_geometry_and_view_data_identical": true
+  },
+  {
+    "file": "B_pillar_stage3.FCStd",
+    "changed_entries": [
+      "Document.xml"
+    ],
+    "all_geometry_and_view_data_identical": true
+  }
+]

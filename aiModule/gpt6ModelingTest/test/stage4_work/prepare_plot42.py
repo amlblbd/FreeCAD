@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('D:/freecad/FreeCAD/aiModule/gpt6ModelingTest/test/stage4_work');s=(p/'plot_dense.py').read_text(encoding='utf-8-sig').replace('[14,28,42,44.8,46,47.5,49,65,602]','[42,42.2,42.35,42.39,42.6,43,43.5,44,44.8]').replace('ax.set_xlim(180,230)','ax.set_xlim(-230,-180)').replace('dense_right_profiles.png','local42_left_profiles.png');(p/'plot_local42.py').write_text(s,encoding='utf-8')

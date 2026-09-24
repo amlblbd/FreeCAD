@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\freecad/FreeCAD/build/bpillar_stage4\reference_offset.py", line 6, in <module>
+    t=time.time();q=s.makeOffsetShape(-2.5,.01,fill=True);q.exportBrep(str(p/'reference_shell_solid.brep'));r.update(seconds=time.time()-t,valid=q.isValid(),solids=len(q.Solids),faces=len(q.Faces),volume=q.Volume);(p/'reference_offset.json').write_text(json.dumps(r))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Base.CADKernelError: BRepOffsetAPI_MakeOffsetShape not done

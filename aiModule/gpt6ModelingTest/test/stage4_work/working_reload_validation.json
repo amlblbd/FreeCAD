@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "object": "EarWall134",
+      "thickness": 2.0,
+      "extrusion_length": 2.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall138",
+      "thickness": 2.0,
+      "extrusion_length": 2.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall159",
+      "thickness": 2.0,
+      "extrusion_length": 2.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall249",
+      "thickness": 2.0,
+      "extrusion_length": 2.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall134",
+      "thickness": 3.0,
+      "extrusion_length": 3.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall138",
+      "thickness": 3.0,
+      "extrusion_length": 3.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall159",
+      "thickness": 3.0,
+      "extrusion_length": 3.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall249",
+      "thickness": 3.0,
+      "extrusion_length": 3.0,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall134",
+      "thickness": 2.5,
+      "extrusion_length": 2.5,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall138",
+      "thickness": 2.5,
+      "extrusion_length": 2.5,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall159",
+      "thickness": 2.5,
+      "extrusion_length": 2.5,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    },
+    {
+      "object": "EarWall249",
+      "thickness": 2.5,
+      "extrusion_length": 2.5,
+      "valid": true,
+      "solids": 1,
+      "bop": "passed"
+    }
+  ],
+  "reference_path": "D:\\freecad\\FreeCAD\\aiModule\\gpt6ModelingTest\\model\\B pillar trim lower-0612.step",
+  "stage3_driver": "SectionSurface",
+  "saved_default": 2.5
+}

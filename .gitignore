@@ -87,3 +87,8 @@ tsupdate_stdout.log
 
 # Independent checkout; publish it from its own repository.
 /src/CADDesigner-Code/
+
+# Original files are stored in test/large_files as verified 32 MiB chunks.
+/aiModule/gpt6ModelingTest/test/B_pillar_stage4_working.FCStd
+/aiModule/gpt6ModelingTest/test/B_pillar_stage4_working.20260923-180015.FCBak
+/aiModule/gpt6ModelingTest/test/stage4_work/measure.log

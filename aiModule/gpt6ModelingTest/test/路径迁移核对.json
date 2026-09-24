@@ -1,0 +1,216 @@
+{
+  "old_root": "D:\\freecad\\b柱设计资料",
+  "new_root": "D:\\freecad\\FreeCAD\\aiModule\\gpt6ModelingTest",
+  "old_file_count": 26,
+  "new_original_file_count": 26,
+  "comparison_before_migration": [
+    {
+      "path": "detc-03-karim1.pdf",
+      "old_bytes": 337736,
+      "new_bytes": 337736,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "du-et-al-2024-multi-objective-optimization-of-vehicle-body-b-pillar-lower-joints-based-on-crashworthiness-analysis.pdf",
+      "old_bytes": 4264178,
+      "new_bytes": 4264178,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model3.pdf",
+      "old_bytes": 1954862,
+      "new_bytes": 1954862,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "Thesis_Alexander Schmitt.pdf",
+      "old_bytes": 19597062,
+      "new_bytes": 19597062,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "车身B立柱总成设计指南.pdf",
+      "old_bytes": 8364775,
+      "new_bytes": 8364775,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/B pillar trim lower-0612.step",
+      "old_bytes": 25280031,
+      "new_bytes": 25574904,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/M5-5402231.step",
+      "old_bytes": 9778424,
+      "new_bytes": 9778424,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/M5-6302161.step",
+      "old_bytes": 8010485,
+      "new_bytes": 8184745,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/pillar.step",
+      "old_bytes": 15317461,
+      "new_bytes": 15656653,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/未命名-0981535409815353.step",
+      "old_bytes": 6197978,
+      "new_bytes": 6338697,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/未命名-1031001001-B121031101001-B001.step",
+      "old_bytes": 9795877,
+      "new_bytes": 10024162,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/未命名-1031010003-B11COMPOUND009.step",
+      "old_bytes": 11143058,
+      "new_bytes": 11351125,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "model/未命名-6302001001-B126302102001-B12.step",
+      "old_bytes": 4875396,
+      "new_bytes": 4986288,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/BPillarSurface.py",
+      "old_bytes": 2430,
+      "new_bytes": 2430,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/B_pillar_stage1.FCStd",
+      "old_bytes": 10845387,
+      "new_bytes": 10845387,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/B_pillar_stage2.FCStd",
+      "old_bytes": 48566854,
+      "new_bytes": 48566854,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/B_pillar_stage3.FCStd",
+      "old_bytes": 50635809,
+      "new_bytes": 50635809,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/stage2_fit_comparison.png",
+      "old_bytes": 267667,
+      "new_bytes": 267667,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/stage2_skeleton.png",
+      "old_bytes": 241721,
+      "new_bytes": 241721,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/test.FCStd",
+      "old_bytes": 1802,
+      "new_bytes": 1802,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/打开阶段3.FCMacro",
+      "old_bytes": 1019,
+      "new_bytes": 1043,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/阶段2查看与参数说明.md",
+      "old_bytes": 3365,
+      "new_bytes": 3410,
+      "binary_equal": false,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/阶段3_偏差采样.csv",
+      "old_bytes": 655952,
+      "new_bytes": 655952,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/阶段3_外形预览.png",
+      "old_bytes": 272167,
+      "new_bytes": 272167,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/阶段3_报告与使用说明.md",
+      "old_bytes": 4280,
+      "new_bytes": 4280,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    },
+    {
+      "path": "test/阶段3_验证结果.json",
+      "old_bytes": 2657,
+      "new_bytes": 2657,
+      "binary_equal": true,
+      "text_equal_after_newline_normalization": true
+    }
+  ],
+  "updated_scripts": [
+    "band_checks.py",
+    "edge_audit.py",
+    "extract_tabs.py",
+    "full_trial.py",
+    "measure.py",
+    "migrate_paths.py",
+    "normalfit_trial.py",
+    "offset_trial.py",
+    "prepare_full.py",
+    "prepare_rn.py",
+    "probe.py",
+    "reference_normals.py",
+    "reference_offset.py",
+    "refnormal_solid.py",
+    "render_reference.py",
+    "summary.py",
+    "wall_test.py"
+  ],
+  "source_metadata_updated_documents": [
+    "B_pillar_stage1.FCStd",
+    "B_pillar_stage2.FCStd",
+    "B_pillar_stage3.FCStd"
+  ],
+  "working_directory": "D:\\freecad\\FreeCAD\\aiModule\\gpt6ModelingTest\\test\\stage4_work",
+  "status": "Stage 4 in progress; experimental solids are not validated deliverables."
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "pair": [
+      "outer",
+      "inner"
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+  },
+  {
+    "pair": [
+      "outer",
+      "left"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "outer",
+      "bottom"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "outer",
+      "right"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "outer",
+      "top"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "inner",
+      "left"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "inner",
+      "bottom"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "inner",
+      "right"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "inner",
+      "top"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "left",
+      "bottom"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "left",
+      "right"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "left",
+      "top"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "bottom",
+      "right"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "bottom",
+      "top"
+    ],
+    "bop": "passed"
+  },
+  {
+    "pair": [
+      "right",
+      "top"
+    ],
+    "bop": "passed"
+  }
+]

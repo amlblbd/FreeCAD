@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "closed": true,
+  "volume": 486863.6639373419,
+  "solids": 1,
+  "faces": 162,
+  "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "step": "fusion",
+    "valid": false,
+    "closed": true,
+    "solids": 32,
+    "volume": 471.68082164142356,
+    "faces": 340,
+    "bop": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n"
+  }
+]

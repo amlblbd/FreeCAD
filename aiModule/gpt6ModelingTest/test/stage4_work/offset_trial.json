@@ -1,0 +1,20 @@
+[
+  {
+    "name": "LowerCrownLoft",
+    "seconds": 0.09269928932189941,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 50663.46284167707,
+    "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  },
+  {
+    "name": "UpperMasterLoft",
+    "seconds": 0.10697364807128906,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 426813.861921859,
+    "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Face: BOPAlgo GeomAbs_C0\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+  }
+]

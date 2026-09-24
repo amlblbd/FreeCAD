@@ -1,0 +1,290 @@
+[
+  {
+    "name": "complete_outer",
+    "span": [
+      0.0,
+      2.0
+    ],
+    "bop": "passed",
+    "time": 0.10768580436706543
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      2.0,
+      8.0
+    ],
+    "bop": "passed",
+    "time": 0.10755157470703125
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      8.0,
+      15.0
+    ],
+    "bop": "passed",
+    "time": 0.2557222843170166
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      15.0,
+      25.0
+    ],
+    "bop": "passed",
+    "time": 0.2539644241333008
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      25.0,
+      32.0
+    ],
+    "bop": "passed",
+    "time": 0.607475996017456
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      32.0,
+      40.0
+    ],
+    "bop": "passed",
+    "time": 0.12322831153869629
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      40.0,
+      47.0
+    ],
+    "bop": "passed",
+    "time": 0.12114524841308594
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      47.0,
+      55.0
+    ],
+    "bop": "passed",
+    "time": 0.08826088905334473
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      55.0,
+      60.0
+    ],
+    "bop": "passed",
+    "time": 0.6770615577697754
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      60.0,
+      65.0
+    ],
+    "bop": "passed",
+    "time": 0.766202449798584
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      65.0,
+      70.0
+    ],
+    "bop": "passed",
+    "time": 0.3385467529296875
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      70.0,
+      75.0
+    ],
+    "bop": "passed",
+    "time": 0.09677457809448242
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      75.0,
+      85.0
+    ],
+    "bop": "passed",
+    "time": 0.03355669975280762
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      85.0,
+      95.0
+    ],
+    "bop": "passed",
+    "time": 0.038789987564086914
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      95.0,
+      100.0
+    ],
+    "bop": "passed",
+    "time": 0.045343637466430664
+  },
+  {
+    "name": "complete_outer",
+    "span": [
+      100.0,
+      115.0
+    ],
+    "bop": "passed",
+    "time": 0.031571149826049805
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      0.0,
+      2.0
+    ],
+    "bop": "passed",
+    "time": 1.4008376598358154
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      2.0,
+      8.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 0.14141035079956055
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      8.0,
+      15.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 1.7162175178527832
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      15.0,
+      25.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 0.6086792945861816
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      25.0,
+      32.0
+    ],
+    "bop": "passed",
+    "time": 0.7710964679718018
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      32.0,
+      40.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 0.1036992073059082
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      40.0,
+      47.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 0.09104251861572266
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      47.0,
+      55.0
+    ],
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n",
+    "time": 0.10225558280944824
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      55.0,
+      60.0
+    ],
+    "bop": "passed",
+    "time": 0.6303226947784424
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      60.0,
+      65.0
+    ],
+    "bop": "passed",
+    "time": 0.7591245174407959
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      65.0,
+      70.0
+    ],
+    "bop": "passed",
+    "time": 1.8899977207183838
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      70.0,
+      75.0
+    ],
+    "bop": "passed",
+    "time": 1.1120805740356445
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      75.0,
+      85.0
+    ],
+    "bop": "passed",
+    "time": 0.17109227180480957
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      85.0,
+      95.0
+    ],
+    "bop": "passed",
+    "time": 0.15957903861999512
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      95.0,
+      100.0
+    ],
+    "bop": "passed",
+    "time": 2.5964503288269043
+  },
+  {
+    "name": "inner_test",
+    "span": [
+      100.0,
+      115.0
+    ],
+    "bop": "passed",
+    "time": 0.0496828556060791
+  }
+]

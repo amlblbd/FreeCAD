@@ -1,0 +1,490 @@
+{
+  "profiles": [
+    {
+      "height": 0.0,
+      "curve_check": "passed"
+    },
+    {
+      "height": 2,
+      "curve_check": "passed"
+    },
+    {
+      "height": 8,
+      "curve_check": "passed"
+    },
+    {
+      "height": 15,
+      "curve_check": "passed"
+    },
+    {
+      "height": 25,
+      "curve_check": "passed"
+    },
+    {
+      "height": 32,
+      "curve_check": "passed"
+    },
+    {
+      "height": 40,
+      "curve_check": "passed"
+    },
+    {
+      "height": 47,
+      "curve_check": "passed"
+    },
+    {
+      "height": 55,
+      "curve_check": "passed"
+    },
+    {
+      "height": 60,
+      "curve_check": "passed"
+    },
+    {
+      "height": 65,
+      "curve_check": "passed"
+    },
+    {
+      "height": 70,
+      "curve_check": "passed"
+    },
+    {
+      "height": 75,
+      "curve_check": "passed"
+    },
+    {
+      "height": 85,
+      "curve_check": "passed"
+    },
+    {
+      "height": 95,
+      "curve_check": "passed"
+    },
+    {
+      "height": 100,
+      "curve_check": "passed"
+    },
+    {
+      "height": 115,
+      "curve_check": "passed"
+    },
+    {
+      "height": 130,
+      "curve_check": "passed"
+    },
+    {
+      "height": 145,
+      "curve_check": "passed"
+    },
+    {
+      "height": 165,
+      "curve_check": "passed"
+    },
+    {
+      "height": 190,
+      "curve_check": "passed"
+    },
+    {
+      "height": 210,
+      "curve_check": "passed"
+    },
+    {
+      "height": 235,
+      "curve_check": "passed"
+    },
+    {
+      "height": 260,
+      "curve_check": "passed"
+    },
+    {
+      "height": 310,
+      "curve_check": "passed"
+    },
+    {
+      "height": 335,
+      "curve_check": "passed"
+    },
+    {
+      "height": 360,
+      "curve_check": "passed"
+    },
+    {
+      "height": 385,
+      "curve_check": "passed"
+    },
+    {
+      "height": 410,
+      "curve_check": "passed"
+    },
+    {
+      "height": 435,
+      "curve_check": "passed"
+    },
+    {
+      "height": 460,
+      "curve_check": "passed"
+    },
+    {
+      "height": 485,
+      "curve_check": "passed"
+    },
+    {
+      "height": 510,
+      "curve_check": "passed"
+    },
+    {
+      "height": 525,
+      "curve_check": "passed"
+    },
+    {
+      "height": 530,
+      "curve_check": "passed"
+    },
+    {
+      "height": 540,
+      "curve_check": "passed"
+    },
+    {
+      "height": 545,
+      "curve_check": "passed"
+    },
+    {
+      "height": 560,
+      "curve_check": "passed"
+    },
+    {
+      "height": 580,
+      "curve_check": "passed"
+    },
+    {
+      "height": 595,
+      "curve_check": "passed"
+    },
+    {
+      "height": "Top",
+      "curve_check": "passed"
+    }
+  ],
+  "bands": [
+    {
+      "span": [
+        0.0,
+        2.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        2.0,
+        8.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        8.0,
+        15.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        15.0,
+        25.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        25.0,
+        32.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        32.0,
+        40.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        40.0,
+        47.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        47.0,
+        55.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        55.0,
+        60.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        60.0,
+        65.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        65.0,
+        70.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        70.0,
+        75.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        75.0,
+        85.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        85.0,
+        95.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        95.0,
+        100.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        100.0,
+        115.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        115.0,
+        130.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        130.0,
+        145.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        145.0,
+        165.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        165.0,
+        190.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        190.0,
+        210.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        210.0,
+        235.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        235.0,
+        260.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        260.0,
+        310.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        310.0,
+        335.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        335.0,
+        360.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        360.0,
+        385.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        385.0,
+        410.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        410.0,
+        435.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        435.0,
+        460.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        460.0,
+        485.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        485.0,
+        510.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        510.0,
+        525.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        525.0,
+        530.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        530.0,
+        540.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        540.0,
+        545.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        545.0,
+        560.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        560.0,
+        580.0
+      ],
+      "valid": true,
+      "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\n"
+    },
+    {
+      "span": [
+        580.0,
+        595.0
+      ],
+      "valid": true,
+      "bop": "passed"
+    },
+    {
+      "span": [
+        595.0,
+        609.9012767256339
+      ],
+      "valid": true,
+      "bop": "passed"
+    }
+  ]
+}

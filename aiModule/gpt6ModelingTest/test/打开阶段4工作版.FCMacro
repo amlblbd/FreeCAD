@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+import sys
+from pathlib import Path
+import FreeCAD as App
+import FreeCADGui as Gui
+folder = Path(__file__).resolve().parent
+if str(folder) not in sys.path: sys.path.insert(0,str(folder))
+import BPillarSurface
+path=folder/'B_pillar_stage4_working.FCStd'
+doc=next((d for d in App.listDocuments().values() if d.FileName and Path(d.FileName).resolve()==path.resolve()),None)
+if doc is None:doc=App.openDocument(str(path))
+App.setActiveDocument(doc.Name)
+for obj in doc.Objects:
+    if obj.ViewObject:obj.ViewObject.Visibility=False
+body=doc.getObject('Stage4BodyTrial')
+body.ViewObject.ShapeColor=(0.75,0.76,0.8)
+body.ViewObject.Transparency=25
+body.ViewObject.Visibility=True
+for name in ['EarWall134','EarWall138','EarWall159','EarWall249']:
+    obj=doc.getObject(name)
+    obj.ViewObject.ShapeColor=(0.2,0.8,0.4)
+    obj.ViewObject.Visibility=True
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+Gui.updateGui()
+App.Console.PrintWarning('阶段4尚未完成：灰色主体有自交且为冻结试算；绿色耳板为独立参数特征，未与主体融合。EarThickness当前仅控制绿色耳板。\n')

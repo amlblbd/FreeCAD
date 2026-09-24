@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\freecad/FreeCAD/aiModule/gpt6ModelingTest/test/stage4_work\fuse24.py", line 23, in <module>
+    final=fused.cut(Part.makeCompound(cutters));final.exportBrep(str(p/'opened24.brep'));r=audit('openings',final)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Base.CADKernelError: Invalid input shape for boolean CUT:
+Self-intersecting wire
+Unorientable shape
+No error
+No error
+

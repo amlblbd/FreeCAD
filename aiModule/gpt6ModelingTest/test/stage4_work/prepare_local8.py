@@ -1,0 +1,4 @@
+﻿from pathlib import Path
+p=Path('D:/freecad/FreeCAD/aiModule/gpt6ModelingTest/test/stage4_work')
+s=(p/'extract_local42.py').read_text(encoding='utf-8-sig').replace('heights=[42.2,42.35,42.39,42.6,43,43.5]','heights=[8,37,38,39]').replace('local42_raw.json','local8_raw.json').replace('local42_error.txt','local8_error.txt');(p/'extract_local8.py').write_text(s,encoding='utf-8')
+s=(p/'fit_local42.py').read_text(encoding='utf-8-sig').replace('local42_raw.json','local8_raw.json').replace('_profiles_before_local42.json','_profiles_before_local8.json').replace('local42_fit_audit.json','local8_fit_audit.json').replace("rows.sort(key=lambda r:1000 if r['height']=='Top' else r['height'])","rows=list({r['height']:r for r in rows}.values());rows.sort(key=lambda r:1000 if r['height']=='Top' else r['height'])");(p/'fit_local8.py').write_text(s,encoding='utf-8')

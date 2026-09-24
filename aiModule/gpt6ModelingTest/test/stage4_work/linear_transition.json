@@ -1,0 +1,7 @@
+{
+  "valid": true,
+  "closed": true,
+  "solids": 1,
+  "volume": 559958.3364907888,
+  "bop": "BOP check found the following errors:\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+}

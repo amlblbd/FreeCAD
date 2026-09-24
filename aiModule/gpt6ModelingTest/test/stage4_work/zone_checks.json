@@ -1,0 +1,37 @@
+[
+  {
+    "lo": 0,
+    "hi": 40,
+    "valid": true,
+    "volume": 40622.56195046478,
+    "bop": "passed"
+  },
+  {
+    "lo": 40,
+    "hi": 55,
+    "valid": true,
+    "volume": 36815.47021342191,
+    "bop": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+  },
+  {
+    "lo": 55,
+    "hi": 75,
+    "valid": true,
+    "volume": 28164.13147695842,
+    "bop": "passed"
+  },
+  {
+    "lo": 75,
+    "hi": 595,
+    "valid": true,
+    "volume": 400658.2057192124,
+    "bop": "passed"
+  },
+  {
+    "lo": 595,
+    "hi": 609.9012767256339,
+    "valid": true,
+    "volume": 8973.076309550841,
+    "bop": "passed"
+  }
+]

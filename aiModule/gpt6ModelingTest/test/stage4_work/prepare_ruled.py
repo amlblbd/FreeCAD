@@ -1,0 +1,6 @@
+﻿from pathlib import Path
+p=Path('D:/freecad/FreeCAD/aiModule/gpt6ModelingTest/test/stage4_work');s=(p/'paired_trial.py').read_text(encoding='utf-8-sig')
+s=s.replace("so=s.copy();si=ins.copy();so.segment(0.,1.,a,b);si.segment(0.,1.,ib[k],ib[k+1]);fo=so.toShape();fi=si.toShape();fs.extend([fo,fi])", "fo=Part.makeRuledSurface(s.vIso(a).toShape(),s.vIso(b).toShape(),1);fi=Part.makeRuledSurface(ins.vIso(ib[k]).toShape(),ins.vIso(ib[k+1]).toShape(),1);fs.extend([fo,fi])")
+# Ruled faces have a different edge order: connect their end profile edges and longitudinal boundaries by minimum distances.
+s=s.replace("for ix in [0,2]+([1] if k==0 else [])+([3] if k==len(bands)-2 else []):fs.append(Part.makeRuledSurface(fo.Edges[ix],fi.Edges[ix],1))", "for side in [0.,1.]:\n   e1=Part.makeLine(s.value(side,a),s.value(side,b));e2=Part.makeLine(ins.value(side,ib[k]),ins.value(side,ib[k+1]));fs.append(Part.makeRuledSurface(e1,e2,1))\n  if k==0:fs.append(Part.makeRuledSurface(s.vIso(a).toShape(),ins.vIso(ib[k]).toShape(),1))\n  if k==len(bands)-2:fs.append(Part.makeRuledSurface(s.vIso(b).toShape(),ins.vIso(ib[k+1]).toShape(),1))")
+s=s.replace('paired_solid.brep','ruled_solid.brep').replace('paired_result.json','ruled_result.json').replace('paired_error.txt','ruled_error.txt');(p/'ruled_trial.py').write_text(s,encoding='utf-8')
