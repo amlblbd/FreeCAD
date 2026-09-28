@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-28T15:59:13.991166+00:00",
+  "git_head": "5bd83f8edee539e2cdf063bb3fbd83404051a4e0",
+  "executable": "E:\\FreeCAD\\build\\debug\\bin\\FreeCADCmd.exe",
+  "executable_sha256": "a2f78c55e54bce443c09a82c287b96702cf4248d8dea06d6e42f68a6ea08ae2a",
+  "timeout_seconds": 180,
+  "inputs": [
+    {
+      "path": "B_pillar_stage4_working.FCStd",
+      "size": 53422255,
+      "sha256": "d339aa87c0c387add9a275c164a6a8863a97663d7cd3d2774a92476ec875c65c"
+    },
+    {
+      "path": "BPillarSurface.py",
+      "size": 2430,
+      "sha256": "bb6621a3e65e1a6fa995758c6cd40334ad30e61b3ec22a403d73940a354b16dd"
+    },
+    {
+      "path": "stage4_work/paired_solid.brep",
+      "size": 6198379,
+      "sha256": "4a359c6b9171ae8205282150d9cdc897f5f404a0309729cf0f5594d13f395c7d"
+    },
+    {
+      "path": "stage4_work/complete_outer.brep",
+      "size": 1186852,
+      "sha256": "8657404366a11a1dfb7c9344e35d347d5238e8067bf098fbdae7ad384e511e98"
+    },
+    {
+      "path": "stage4_work/paired_inner.brep",
+      "size": 1186914,
+      "sha256": "1b19b8f8b4ccf6d920a8a278521b8db8847726c7976ded913fd7b7e7b5957a85"
+    },
+    {
+      "path": "stage4_work/full_profiles.json",
+      "size": 549547,
+      "sha256": "5efe6d1b5c8f6daa7aeae42396b176785e4cce587dba3543ced0de935593ca1a"
+    },
+    {
+      "path": "stage4_work/inner_profiles.json",
+      "size": 549695,
+      "sha256": "cc904085b9589606e9656bd79c51bc1d6c7714df72d564f5ef1dc9e446fbd5f0"
+    },
+    {
+      "path": "stage4_work/reference_inner_complete.brep",
+      "size": 12464095,
+      "sha256": "ea01e347d2cb95d287d4498fc40e493d8168b5cf13cf9d41773e60aa7e6fd383"
+    },
+    {
+      "path": "stage4_work/paired_result.json",
+      "size": 125,
+      "sha256": "73babf28c756a90a34ddb96cbe795ab8ffcac2af3079415ce49a2e5a50dc4d31"
+    },
+    {
+      "path": "stage4_work/paired_wall_test.json",
+      "size": 1668,
+      "sha256": "2274c6b582f15c69dec5d4d68739d1badd41bc7f740559f2d4dc84cc4e6c77ff"
+    },
+    {
+      "path": "stage4_work/zone_checks.json",
+      "size": 1012,
+      "sha256": "e52ec262ae1fe83550b29e713caf94dd428b27568838c5082476b644a8fbf321"
+    },
+    {
+      "path": "stage4_work/resume_checkpoint.json",
+      "size": 1071,
+      "sha256": "dc5a90253d4ce74e6735d6674623e9e7baa01dd25409af5d4fd2453a325577cf"
+    },
+    {
+      "path": "baseline/run.py",
+      "size": 5298,
+      "sha256": "bc16ecaeeb902db3d0d7f2f5be27d795f31569b79f449efb68548e109ea47743"
+    },
+    {
+      "path": "baseline/worker.py",
+      "size": 7274,
+      "sha256": "2a3304e146828ae28aad5d2bd64436c58ff6df3433da5e958eed25c65d029889"
+    },
+    {
+      "path": "large_files/manifest.json",
+      "size": 2215,
+      "sha256": "70ff7daa371a4fbed33bdb0f851dadfeef1e91076117b61e5ab6c224704e2b2e"
+    }
+  ],
+  "archive_matches": true,
+  "tasks": [
+    {
+      "task": "surface_body",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          0.0,
+          609.9012767256339
+        ],
+        "inner_v_range": [
+          0.0,
+          609.7836701624248
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 286,
+          "edges": 572,
+          "volume_mm3": 495356.8059110823,
+          "area_mm2": 401869.2610224513,
+          "bounds_mm": [
+            -223.50589749118282,
+            -31.93398851627967,
+            0.0,
+            223.5018053161048,
+            32.978771210767135,
+            614.9115208938176
+          ],
+          "bop": "passed"
+        },
+        "paired_comparison": {
+          "geometry": {
+            "null": false,
+            "valid": true,
+            "closed": true,
+            "solids": 1,
+            "shells": 1,
+            "faces": 286,
+            "edges": 572,
+            "volume_mm3": 495356.8059110826,
+            "area_mm2": 401869.2610224514,
+            "bounds_mm": [
+              -223.50589749118282,
+              -31.93398851627967,
+              0.0,
+              223.5018053161048,
+              32.978771210767135,
+              614.9115208938176
+            ]
+          },
+          "normalized_brep_equal": false,
+          "volume_difference_mm3": -2.9103830456733704e-10
+        }
+      },
+      "seconds": 117.968007
+    }
+  ],
+  "requested_tasks": [
+    "surface_body"
+  ],
+  "full_suite_requested": false,
+  "originals_unchanged": true,
+  "execution_complete": true,
+  "run_id": "20260928T155913796822Z"
+}

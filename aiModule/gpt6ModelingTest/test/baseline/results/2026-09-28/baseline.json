@@ -1,0 +1,1042 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-28T15:50:34.072516+00:00",
+  "git_head": "5bd83f8edee539e2cdf063bb3fbd83404051a4e0",
+  "executable": "E:\\FreeCAD\\build\\debug\\bin\\FreeCADCmd.exe",
+  "executable_sha256": "a2f78c55e54bce443c09a82c287b96702cf4248d8dea06d6e42f68a6ea08ae2a",
+  "timeout_seconds": 180,
+  "inputs": [
+    {
+      "path": "B_pillar_stage4_working.FCStd",
+      "size": 53422255,
+      "sha256": "d339aa87c0c387add9a275c164a6a8863a97663d7cd3d2774a92476ec875c65c"
+    },
+    {
+      "path": "BPillarSurface.py",
+      "size": 2430,
+      "sha256": "bb6621a3e65e1a6fa995758c6cd40334ad30e61b3ec22a403d73940a354b16dd"
+    },
+    {
+      "path": "stage4_work/paired_solid.brep",
+      "size": 6198379,
+      "sha256": "4a359c6b9171ae8205282150d9cdc897f5f404a0309729cf0f5594d13f395c7d"
+    },
+    {
+      "path": "stage4_work/complete_outer.brep",
+      "size": 1186852,
+      "sha256": "8657404366a11a1dfb7c9344e35d347d5238e8067bf098fbdae7ad384e511e98"
+    },
+    {
+      "path": "stage4_work/paired_inner.brep",
+      "size": 1186914,
+      "sha256": "1b19b8f8b4ccf6d920a8a278521b8db8847726c7976ded913fd7b7e7b5957a85"
+    },
+    {
+      "path": "stage4_work/full_profiles.json",
+      "size": 549547,
+      "sha256": "5efe6d1b5c8f6daa7aeae42396b176785e4cce587dba3543ced0de935593ca1a"
+    },
+    {
+      "path": "stage4_work/inner_profiles.json",
+      "size": 549695,
+      "sha256": "cc904085b9589606e9656bd79c51bc1d6c7714df72d564f5ef1dc9e446fbd5f0"
+    },
+    {
+      "path": "stage4_work/reference_inner_complete.brep",
+      "size": 12464095,
+      "sha256": "ea01e347d2cb95d287d4498fc40e493d8168b5cf13cf9d41773e60aa7e6fd383"
+    },
+    {
+      "path": "stage4_work/paired_result.json",
+      "size": 125,
+      "sha256": "73babf28c756a90a34ddb96cbe795ab8ffcac2af3079415ce49a2e5a50dc4d31"
+    },
+    {
+      "path": "stage4_work/paired_wall_test.json",
+      "size": 1668,
+      "sha256": "2274c6b582f15c69dec5d4d68739d1badd41bc7f740559f2d4dc84cc4e6c77ff"
+    },
+    {
+      "path": "stage4_work/zone_checks.json",
+      "size": 1012,
+      "sha256": "e52ec262ae1fe83550b29e713caf94dd428b27568838c5082476b644a8fbf321"
+    },
+    {
+      "path": "stage4_work/resume_checkpoint.json",
+      "size": 1071,
+      "sha256": "dc5a90253d4ce74e6735d6674623e9e7baa01dd25409af5d4fd2453a325577cf"
+    },
+    {
+      "path": "baseline/run.py",
+      "size": 5004,
+      "sha256": "d1142c31cdb07efc0e5cd66aa8d02af7606ab92582613626ffc00f0ccb4ae2df"
+    },
+    {
+      "path": "baseline/worker.py",
+      "size": 6645,
+      "sha256": "3deb540ef36056f072b6da8d8b90e38b533a58e51ebb30c4d752d6b6f1c70715"
+    },
+    {
+      "path": "large_files/manifest.json",
+      "size": 2215,
+      "sha256": "70ff7daa371a4fbed33bdb0f851dadfeef1e91076117b61e5ab6c224704e2b2e"
+    }
+  ],
+  "archive_matches": true,
+  "tasks": [
+    {
+      "task": "document",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "body": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 250,
+          "edges": 500,
+          "volume_mm3": 513757.8259704633,
+          "area_mm2": 401393.85192407516,
+          "bounds_mm": [
+            -223.50589749118285,
+            -31.93398851627967,
+            0.0,
+            223.50180531610482,
+            32.978771210767135,
+            614.9115208938176
+          ]
+        },
+        "body_type": "Part::Feature",
+        "body_expressions": [],
+        "body_dependencies": [],
+        "default_ear_thickness": 2.5,
+        "reference_source": "D:\\freecad\\FreeCAD\\aiModule\\gpt6ModelingTest\\model\\B pillar trim lower-0612.step",
+        "reference_embedded": true,
+        "stage3_proxy": "SectionSurface",
+        "paired": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 286,
+          "edges": 572,
+          "volume_mm3": 495356.8059110826,
+          "area_mm2": 401869.2610224514,
+          "bounds_mm": [
+            -223.50589749118282,
+            -31.93398851627967,
+            0.0,
+            223.5018053161048,
+            32.978771210767135,
+            614.9115208938176
+          ]
+        },
+        "normalized_brep_equal": false,
+        "saved_body_sha256": "5379635008e1254e15d4438e584a7ad2e336b65d296f95968dad7433c5801058",
+        "ears": [
+          {
+            "name": "EarWall134",
+            "expressions": [
+              [
+                "LengthFwd",
+                "Stage4Parameters.EarThickness"
+              ]
+            ]
+          },
+          {
+            "name": "EarWall138",
+            "expressions": [
+              [
+                "LengthFwd",
+                "Stage4Parameters.EarThickness"
+              ]
+            ]
+          },
+          {
+            "name": "EarWall159",
+            "expressions": [
+              [
+                "LengthFwd",
+                "Stage4Parameters.EarThickness"
+              ]
+            ]
+          },
+          {
+            "name": "EarWall249",
+            "expressions": [
+              [
+                "LengthFwd",
+                "Stage4Parameters.EarThickness"
+              ]
+            ]
+          }
+        ]
+      },
+      "seconds": 20.097281
+    },
+    {
+      "task": "body",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "source": "saved document, no explicit recompute",
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 250,
+          "edges": 500,
+          "volume_mm3": 513757.8259704633,
+          "area_mm2": 401393.85192407516,
+          "bounds_mm": [
+            -223.50589749118285,
+            -31.93398851627967,
+            0.0,
+            223.50180531610482,
+            32.978771210767135,
+            614.9115208938176
+          ],
+          "bop": "failed",
+          "bop_error": "BOP check found the following errors:\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Edge: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\nError in Face: BOPAlgo SelfIntersect\n"
+        }
+      },
+      "seconds": 100.924025
+    },
+    {
+      "task": "paired",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "source": "stage4_work/paired_solid.brep",
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 286,
+          "edges": 572,
+          "volume_mm3": 495356.8059110826,
+          "area_mm2": 401869.2610224514,
+          "bounds_mm": [
+            -223.50589749118282,
+            -31.93398851627967,
+            0.0,
+            223.5018053161048,
+            32.978771210767135,
+            614.9115208938176
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 116.556399
+    },
+    {
+      "task": "ears",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "checks": [
+          {
+            "name": "EarWall134",
+            "requested_mm": 2.0,
+            "length_mm": 2.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 410.98426609926776,
+              "area_mm2": 656.6068253968181,
+              "bounds_mm": [
+                206.35620893284604,
+                -31.857750919602218,
+                45.40278599999999,
+                221.47818148169654,
+                2.149932611034825,
+                47.40278600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall138",
+            "requested_mm": 2.0,
+            "length_mm": 2.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 13,
+              "edges": 33,
+              "volume_mm3": 496.4744868128019,
+              "area_mm2": 760.5990897379631,
+              "bounds_mm": [
+                -221.50314391572988,
+                -31.85751740610106,
+                42.866785978658015,
+                -204.72395086831625,
+                3.550744946080041,
+                44.86678600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall159",
+            "requested_mm": 2.0,
+            "length_mm": 2.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 712.7824263996497,
+              "area_mm2": 984.2767918683785,
+              "bounds_mm": [
+                219.56810244535734,
+                -14.921440913467066,
+                5.066086061802142,
+                223.5043622116073,
+                25.008636383319754,
+                45.411289906712
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall249",
+            "requested_mm": 2.0,
+            "length_mm": 2.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 669.4659699266668,
+              "area_mm2": 932.6316794752063,
+              "bounds_mm": [
+                -223.50436300404,
+                -12.78656799358447,
+                5.117251774710504,
+                -220.15443474854666,
+                25.948434282103452,
+                42.866786113439446
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall134",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 513.7303326240849,
+              "area_mm2": 717.8954940947253,
+              "bounds_mm": [
+                206.35620893284604,
+                -31.857750919602218,
+                44.90278599999999,
+                221.47818148169654,
+                2.149932611034825,
+                47.40278600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall138",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 13,
+              "edges": 33,
+              "volume_mm3": 620.5931085160022,
+              "area_mm2": 826.5789840381055,
+              "bounds_mm": [
+                -221.50314391572988,
+                -31.85751740610106,
+                42.366785978658015,
+                -204.72395086831625,
+                3.550744946080041,
+                44.86678600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall159",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 890.9780329995831,
+              "area_mm2": 1052.1473455053404,
+              "bounds_mm": [
+                219.06879220392912,
+                -14.947608891833923,
+                5.063960100087943,
+                223.5043622116073,
+                25.008636383319754,
+                45.411289906712
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall249",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 836.832462408321,
+              "area_mm2": 998.4259032298725,
+              "bounds_mm": [
+                -223.50436300404,
+                -12.804017741980545,
+                5.117251774710504,
+                -219.65473933511268,
+                25.948434282103452,
+                42.866794706813806
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall134",
+            "requested_mm": 3.0,
+            "length_mm": 3.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 616.4763991489018,
+              "area_mm2": 779.1841627926324,
+              "bounds_mm": [
+                206.35620893284604,
+                -31.857750919602218,
+                44.40278599999999,
+                221.47818148169654,
+                2.149932611034825,
+                47.40278600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall138",
+            "requested_mm": 3.0,
+            "length_mm": 3.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 13,
+              "edges": 33,
+              "volume_mm3": 744.7117302192029,
+              "area_mm2": 892.5588783382482,
+              "bounds_mm": [
+                -221.50314391572988,
+                -31.85751740610106,
+                41.866785978658015,
+                -204.72395086831625,
+                3.550744946080041,
+                44.86678600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall159",
+            "requested_mm": 3.0,
+            "length_mm": 3.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 1069.1736395994888,
+              "area_mm2": 1120.0178991423022,
+              "bounds_mm": [
+                218.56948196250107,
+                -14.973776870200666,
+                5.061834138373748,
+                223.5043622116073,
+                25.008636383319754,
+                45.411289906712
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall249",
+            "requested_mm": 3.0,
+            "length_mm": 3.0,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 1004.1989548899999,
+              "area_mm2": 1064.2201269845386,
+              "bounds_mm": [
+                -223.50436300404,
+                -12.82146749037662,
+                5.117251774710504,
+                -219.15504392167847,
+                25.948434282103452,
+                42.86680330018817
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall134",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 513.7303326240849,
+              "area_mm2": 717.8954940947253,
+              "bounds_mm": [
+                206.35620893284604,
+                -31.857750919602218,
+                44.90278599999999,
+                221.47818148169654,
+                2.149932611034825,
+                47.40278600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall138",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 13,
+              "edges": 33,
+              "volume_mm3": 620.5931085160022,
+              "area_mm2": 826.5789840381055,
+              "bounds_mm": [
+                -221.50314391572988,
+                -31.85751740610106,
+                42.366785978658015,
+                -204.72395086831625,
+                3.550744946080041,
+                44.86678600000002
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall159",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 890.9780329995831,
+              "area_mm2": 1052.1473455053404,
+              "bounds_mm": [
+                219.06879220392912,
+                -14.947608891833923,
+                5.063960100087943,
+                223.5043622116073,
+                25.008636383319754,
+                45.411289906712
+              ],
+              "bop": "passed"
+            }
+          },
+          {
+            "name": "EarWall249",
+            "requested_mm": 2.5,
+            "length_mm": 2.5,
+            "state": [
+              "Up-to-date"
+            ],
+            "geometry": {
+              "null": false,
+              "valid": true,
+              "closed": true,
+              "solids": 1,
+              "shells": 1,
+              "faces": 12,
+              "edges": 30,
+              "volume_mm3": 836.832462408321,
+              "area_mm2": 998.4259032298725,
+              "bounds_mm": [
+                -223.50436300404,
+                -12.804017741980545,
+                5.117251774710504,
+                -219.65473933511268,
+                25.948434282103452,
+                42.866794706813806
+              ],
+              "bop": "passed"
+            }
+          }
+        ],
+        "finished": true,
+        "all_passed": true
+      },
+      "seconds": 8.264979
+    },
+    {
+      "task": "distance",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "25 x 31 UV cell centers; outer-to-inner nearest distance, NOT normal wall thickness",
+        "samples": 775,
+        "min_mm": 2.342049622288331,
+        "max_mm": 3.1835668923501856,
+        "rms_from_2_5_mm": 0.05242681087346702,
+        "samples_file": "distance_samples.csv"
+      },
+      "seconds": 24.927864
+    },
+    {
+      "task": "zone_0_40",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          0.0,
+          40.0
+        ],
+        "inner_v_range": [
+          0.0,
+          40.0
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 70,
+          "edges": 140,
+          "volume_mm3": 38371.96485852473,
+          "area_mm2": 40754.94351217752,
+          "bounds_mm": [
+            -223.50589749118282,
+            -14.816769078336677,
+            0.0,
+            223.5018053161048,
+            32.978771210767135,
+            40.0
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 74.854045
+    },
+    {
+      "task": "zone_40_55",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          40.0,
+          55.0
+        ],
+        "inner_v_range": [
+          40.0,
+          55.0
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 74,
+          "edges": 148,
+          "volume_mm3": 31307.823867385905,
+          "area_mm2": 22700.132450879126,
+          "bounds_mm": [
+            -223.50589749118282,
+            -31.921919936399664,
+            40.0,
+            223.5018053161048,
+            29.878469860125158,
+            55.0
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 45.205152
+    },
+    {
+      "task": "zone_55_75",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          55.0,
+          75.0
+        ],
+        "inner_v_range": [
+          55.0,
+          75.0
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 22,
+          "edges": 44,
+          "volume_mm3": 31816.027799809905,
+          "area_mm2": 24343.191342817092,
+          "bounds_mm": [
+            -205.5118441368346,
+            -31.921919936399664,
+            55.0,
+            207.7740277054534,
+            28.68795419979104,
+            75.0
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 30.06085
+    },
+    {
+      "task": "zone_75_595",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          75.0,
+          595.0
+        ],
+        "inner_v_range": [
+          75.0,
+          595.0
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 110,
+          "edges": 220,
+          "volume_mm3": 372868.54613629455,
+          "area_mm2": 313339.9236940785,
+          "bounds_mm": [
+            -174.40169979671302,
+            -31.928042342597525,
+            75.0,
+            206.1669797462245,
+            31.431775604169218,
+            595.0
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 11.618107
+    },
+    {
+      "task": "zone_595_top",
+      "exit_code": 0,
+      "execution": "completed",
+      "result": {
+        "environment": {
+          "freecad": [
+            "26",
+            "3",
+            "0",
+            "47817 (Git)",
+            "git://github.com/amlblbd/FreeCAD.git main",
+            "2026/07/24 08:07:11",
+            "main",
+            "44fd26c627c7a29f48777536f20020ab83982d3f"
+          ],
+          "occ": "7.8.1",
+          "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:39:55) [MSC v.1944 64 bit (AMD64)]"
+        },
+        "method": "Reconstructed and capped surface bands; not a cut of the saved body",
+        "outer_v_range": [
+          595.0,
+          609.9012767256339
+        ],
+        "inner_v_range": [
+          595.0,
+          609.7836701624248
+        ],
+        "geometry": {
+          "null": false,
+          "valid": true,
+          "closed": true,
+          "solids": 1,
+          "shells": 1,
+          "faces": 18,
+          "edges": 36,
+          "volume_mm3": 8955.20872643039,
+          "area_mm2": 10024.549950040875,
+          "bounds_mm": [
+            12.588724266141282,
+            -31.93398851627967,
+            595.0,
+            207.19865425686942,
+            32.80882612285637,
+            614.9115208938176
+          ],
+          "bop": "passed"
+        }
+      },
+      "seconds": 5.94448
+    }
+  ],
+  "originals_unchanged": true,
+  "execution_complete": true,
+  "run_id": "20260928T155033867419Z"
+}
